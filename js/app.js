@@ -31,7 +31,7 @@ let timeLine3 = gsap.timeline({
     scrollTrigger: {
         trigger: ".home",
         start: "0%",
-        end: "210%",
+        end: "300%",
         scrub: 1,
         pin: true,
         pinSpacing: false
