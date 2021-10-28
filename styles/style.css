@@ -5,13 +5,13 @@
 }
 body{
     font-family: 'Heebo', sans-serif;
-
+    overflow-x: hidden;
 }
 nav{
     display: flex;
     justify-content: space-between;
     padding: 1rem 5rem;
-
+    background-color: white;
 }
 h2{
     font-size: 5rem;
@@ -40,7 +40,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 0rem;
+    padding: 1rem 0;
 }
 .home{
     height: 100vh;
@@ -49,8 +49,16 @@ a{
     height: 100%;
 }
 .intro p{
-    padding: 0rem 2rem;
+    padding: 0 2rem;
 }
 .intro h2{
-    padding: 0rem 2rem;
+    padding: 0 2rem;
+}
+.square{
+    width: 10rem;
+    height: 10rem;
+    background-color: #3c8cf6;
+    position: absolute;
+    top: 70%;
+    left: 70%;
 }
