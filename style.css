@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Heebo', sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+
+}
+h2{
+    font-size: 5rem;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 5rem;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(6);
+}
+.first-page{
+    height: 100vh;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+.home{
+    height: 100vh;
+}
+.first-page img {
+    height: 100%;
+}
+.intro p{
+    padding: 0rem 2rem;
+}
+.intro h2{
+    padding: 0rem 2rem;
+}
